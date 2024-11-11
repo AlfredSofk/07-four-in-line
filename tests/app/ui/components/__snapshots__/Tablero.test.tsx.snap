@@ -1,0 +1,136 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Pruebas para el componente Tablero > Match Snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="tablero"
+  >
+    <div
+      class="tablero__celda fila1"
+    />
+    <div
+      class="tablero__celda fila1"
+    />
+    <div
+      class="tablero__celda fila1"
+    />
+    <div
+      class="tablero__celda fila1"
+    />
+    <div
+      class="tablero__celda fila1"
+    />
+    <div
+      class="tablero__celda fila1"
+    />
+    <div
+      class="tablero__celda fila1"
+    />
+    <div
+      class="tablero__celda fila2"
+    />
+    <div
+      class="tablero__celda fila2"
+    />
+    <div
+      class="tablero__celda fila2"
+    />
+    <div
+      class="tablero__celda fila2"
+    />
+    <div
+      class="tablero__celda fila2"
+    />
+    <div
+      class="tablero__celda fila2"
+    />
+    <div
+      class="tablero__celda fila2"
+    />
+    <div
+      class="tablero__celda fila3"
+    />
+    <div
+      class="tablero__celda fila3"
+    />
+    <div
+      class="tablero__celda fila3"
+    />
+    <div
+      class="tablero__celda fila3"
+    />
+    <div
+      class="tablero__celda fila3"
+    />
+    <div
+      class="tablero__celda fila3"
+    />
+    <div
+      class="tablero__celda fila3"
+    />
+    <div
+      class="tablero__celda fila4"
+    />
+    <div
+      class="tablero__celda fila4"
+    />
+    <div
+      class="tablero__celda fila4"
+    />
+    <div
+      class="tablero__celda fila4"
+    />
+    <div
+      class="tablero__celda fila4"
+    />
+    <div
+      class="tablero__celda fila4"
+    />
+    <div
+      class="tablero__celda fila4"
+    />
+    <div
+      class="tablero__celda fila5"
+    />
+    <div
+      class="tablero__celda fila5"
+    />
+    <div
+      class="tablero__celda fila5"
+    />
+    <div
+      class="tablero__celda fila5"
+    />
+    <div
+      class="tablero__celda fila5"
+    />
+    <div
+      class="tablero__celda fila5"
+    />
+    <div
+      class="tablero__celda fila5"
+    />
+    <div
+      class="tablero__celda fila6"
+    />
+    <div
+      class="tablero__celda fila6"
+    />
+    <div
+      class="tablero__celda fila6"
+    />
+    <div
+      class="tablero__celda fila6"
+    />
+    <div
+      class="tablero__celda fila6"
+    />
+    <div
+      class="tablero__celda fila6"
+    />
+    <div
+      class="tablero__celda fila6"
+    />
+  </div>
+</DocumentFragment>
+`;

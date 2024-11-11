@@ -1,17 +1,11 @@
-import { useContext } from "react"
-import { AppContext } from "../../../core/state/AppContext"
 import "./style.scss"
-
 
 interface Props {
     handleSelectColumn: (column: number) => void
+    tablero: number[][]
 }
 
-const Tablero = ({ handleSelectColumn }: Props) => {
-
-    const { state } = useContext(AppContext)
-
-    const { tablero } = state
+const Tablero = ({ handleSelectColumn, tablero }: Props) => {
 
     return (
         <div className="tablero">

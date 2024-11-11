@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Pruebas para el componente Cabecera > Match Snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="cabecera"
+  >
+    <div>
+      <h2>
+        Jugador 1
+      </h2>
+      <div
+        class="ficha-cabecera ficha-cabecera--jugador1"
+      />
+    </div>
+    <div>
+      <h2>
+        Jugador 2
+      </h2>
+      <div
+        class="ficha-cabecera ficha-cabecera--jugador2"
+      />
+    </div>
+  </section>
+  <h3>
+    Turno del jugador: 1
+  </h3>
+</DocumentFragment>
+`;

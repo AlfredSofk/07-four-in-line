@@ -51,6 +51,7 @@ export const useGetTablero = () => {
         currentPlayer: state.isPlayerOneTurn ? 1 : 2,
         isAWinner: state.isThereWinner,
         winnerPlayer: state.winnerPlayer,
+        tablero: state.tablero,
         handleClickButton,
         handleResetGame
     }

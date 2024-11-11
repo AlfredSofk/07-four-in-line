@@ -8,13 +8,13 @@ import Tablero from "../ui/components/Tablero";
 
 export default function HomeContainer() {
 
-    const { currentPlayer, isAWinner, winnerPlayer, handleClickButton, handleResetGame } = useGetTablero()
+    const { currentPlayer, isAWinner, winnerPlayer, tablero, handleClickButton, handleResetGame } = useGetTablero()
 
     return (
         <LayoutMain>
 
             <Cabecera currentPlayer={currentPlayer} />
-            <Tablero handleSelectColumn={handleClickButton} />
+            <Tablero handleSelectColumn={handleClickButton} tablero={tablero} />
             {isAWinner && winnerPlayer != -1 && <h1>Ganaste Jugador {winnerPlayer}</h1>}
             {isAWinner && <button onClick={handleResetGame}>Restablecer Juego</button>}
             {
