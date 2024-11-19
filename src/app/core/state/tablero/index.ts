@@ -77,7 +77,7 @@ export const tableroCases = {
 
         const isAWinner = verifyWinUser(state)
 
-        console.log({ isAWinner })
+        // console.log({ isAWinner })
         return {
             ...state,
             isThereWinner: isAWinner,
