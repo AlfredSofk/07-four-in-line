@@ -56,7 +56,7 @@ describe('Pruebas para el hook useGetTablero', () => {
 
         const stateMock = {
             ...initialStateMock,
-            isThereWinner: false,
+            isThereWinner: true,
         }
 
         const dispatchMock = vi.fn();
